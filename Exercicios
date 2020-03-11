@@ -1,0 +1,30 @@
+Use Pessoa_Veiculo
+--Exercicio 1
+--SELECT c.NomeCidade, u.nomeUF
+
+--FROM Cidade c
+
+--Inner join UF u ON u.IdUF = c.IdUF
+----------------------------------------------------
+--Exercicio 2 
+--Select p.NomePessoa, c.NomeCidade
+
+--From Pessoa p
+
+--Inner join Cidade c on c.IdCidade = p.CidadeReside
+------------------------------------------------------------
+--Exercicio 3
+--Select p.NomePessoa, c.NomeCidade, c.IdUF
+
+--From Pessoa p
+
+--Inner join Cidade c on IdCidade = p.CidadeReside
+---------------------------------------------------------------
+--Exercicio 4
+--Select	p.NomePessoa, v.Placa, v.Ano, v.Cidade , c.NomeCidade
+
+--From Pessoa p
+--Inner join Veiculo v on  v.IdPessoa = v.IdPessoa
+
+--Inner join Cidade c on c.IdCidade = v.Cidade 
+--------------------------------------------------------------
